@@ -1,4 +1,5 @@
 set(SRC
+	include/ECSDefines.hpp
     include/Component.hpp
     include/Entity.hpp
     include/EntityManager.hpp
