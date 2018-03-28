@@ -3,6 +3,7 @@ set(SRC
     include/Component.hpp
     include/Entity.hpp
     include/EntityManager.hpp
+    include/ResourceManagement/UniqueResource.hpp
     Component.cpp
     Entity.cpp
     EntityManager.cpp)
