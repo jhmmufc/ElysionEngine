@@ -14,7 +14,7 @@ namespace ElysionEngine
             }
 
             template <typename T, typename D>
-            constexpr T lerp(const T& start, const T& end, const D& percent)
+            constexpr T lerp(const T& start, const T& end, const D& percent) noexcept
             {
                 return(start + percent * (end - start));
             }
