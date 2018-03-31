@@ -1,7 +1,7 @@
 #include <catch.hpp>
 #include "Colour.hpp"
 
-using namespace TinyBox::Graphics;
+using namespace ElysionEngine::Graphics;
 
 TEST_CASE("Comparisons", "[Colour]")
 {
