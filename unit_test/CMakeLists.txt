@@ -1,5 +1,6 @@
 set(UNIT_TESTS
     EntityTests.cpp
+    ColourTests.cpp
     main.cpp)
     
 add_executable(unit_tests ${UNIT_TESTS})
