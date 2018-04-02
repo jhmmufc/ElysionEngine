@@ -39,8 +39,7 @@ namespace ElysionEngine
 
             constexpr T& operator [](const int i) noexcept
             {
-                if (i <= 0) return x;
-                if (i >= 1) return y;
+                Util::clamp(i, 0, 1);
                 return ((&x)[i]);
             }
 
