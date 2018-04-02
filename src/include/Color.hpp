@@ -4,9 +4,5 @@
 
 namespace ElysionEngine
 {
-    namespace Graphics
-    {
-        // for our American cousins 
-        using Color = Colour;
-    }
+    using Color = Colour;
 }

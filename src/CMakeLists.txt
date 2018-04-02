@@ -4,7 +4,10 @@ set(SRC
     include/Entity.hpp
     include/EntityManager.hpp
     include/Colour.hpp
-    include/Util.hpp
+    include/Maths/Maths.hpp
+    include/Maths/Vector2.hpp
+    include/Maths/Vector3.hpp
+    include/Maths/Vector4.hpp
     Component.cpp
     Entity.cpp
     EntityManager.cpp)
